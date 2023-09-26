@@ -5,7 +5,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 
-@MappedSuperclass
+@MappedSuperclass//indica que uma classe é uma superclasse mapeada
 public abstract class BaseItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
