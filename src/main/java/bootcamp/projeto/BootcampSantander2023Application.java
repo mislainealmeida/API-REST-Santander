@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Collections;
 
+
 @SpringBootApplication
 public class BootcampSantander2023Application {
 
